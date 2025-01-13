@@ -21,7 +21,7 @@ class Product:
             return f"The value of {self.quantity} {self.name} is: {self.price}"
 
 
-stock_January = Product("Mango", 1000, 10)
-print(stock_January.total_value())
-stock_February = Product("orange", 2000, 1)
-print(stock_February.total_value())
+stock1 = Product("Apple", 1000, 10)
+print(stock1.total_value())
+stock2 = Product("orange", 2000, 1)
+print(stock2.total_value())
